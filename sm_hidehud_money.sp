@@ -14,7 +14,7 @@ public void OnPluginStart() {
 }
 
 public void OnClientPutInServer(int client) {
-	b_gHudMoney[client] = true;
+	b_gHudMoney[client] = false;
 }
 
 public Action sm_hudmoney(int client, int args) {
